@@ -56,3 +56,5 @@ let alienOrder = (words) => {
 
     return str.length === Object.keys(graph).length ? str : '';
 };
+
+console.log("Test Output: " + alienOrder(["wrt", "wrf", "er", "ett", "rftt"]));
