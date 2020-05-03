@@ -2,7 +2,7 @@ var mergeKLists = function (lists) {
     if (!lists || lists.length < 1) return null
     if (lists.length == 1) return lists[0]
 
-    let mergeTwoList = function (alpha, bravo) {
+    let mergeTwoList = function (a, b) {
         let i = a
         let j = b
         let res = new ListNode('tmp')
@@ -52,3 +52,5 @@ var mergeKLists = function (lists) {
     }
     return curLists[0]
 };
+
+console.log("Here");
